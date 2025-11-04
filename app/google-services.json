@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544120783039",
+    "project_id": "smartbelt-e43c0",
+    "storage_bucket": "smartbelt-e43c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544120783039:android:b6487f8015baeec1eac60a",
+        "android_client_info": {
+          "package_name": "com.example.smartbelt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4XaUnChAVpU01qEXpQ1RtxdFjxYql6w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
