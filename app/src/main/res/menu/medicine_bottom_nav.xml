@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_my_meds"
+        android:title="MyMeds"
+        android:icon="@drawable/icon_meds"/>
+    <item
+        android:id="@+id/nav_add_med"
+        android:title="AddMed"
+        android:icon="@drawable/icon_add_med"/>
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Calendar"
+        android:icon="@drawable/icon_calendar"/>
+</menu>

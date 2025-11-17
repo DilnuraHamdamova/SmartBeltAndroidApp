@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginBottom="12dp"
+    android:background="@color/white">
+
+    <!-- Day & Date header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#E3F2FD"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textSize="16sp"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 Nov"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="#1976D2"
+            android:padding="6dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Medicines list (vertical) -->
+    <LinearLayout
+        android:id="@+id/llMedicinesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

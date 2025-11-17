@@ -1,0 +1,10 @@
+<!--suppress AndroidUnresolvableTag -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--suppress AndroidUnresolvableTag -->
+    <solid android:color="#FFFFFF"/>
+    <!--suppress AndroidUnresolvableTag -->
+    <corners android:radius="8dp"/>
+    <!--suppress AndroidUnresolvableTag -->
+    <padding android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp"/>
+</shape>
